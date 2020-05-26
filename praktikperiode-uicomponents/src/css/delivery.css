@@ -2,10 +2,7 @@
     background-color:var(--first-blue);
     border-radius: 1rem;
 }
-#four-little-boxes{
-    display:flex;
-    justify-content:space-evenly;
-}
+
 #Delivery{
     padding: 1% 2%;
     margin:0 1%;
