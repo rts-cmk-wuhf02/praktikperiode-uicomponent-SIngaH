@@ -1,0 +1,14 @@
+#Surfing{
+    background-color: #fff;
+    border-radius: 1rem;
+}
+#Surfing img{
+    width: 100%;
+}
+.surfing-text{
+    padding:2% 5%;
+}
+#Surfing h4{
+    font-size: 13px;
+    color:#33439B;
+}
