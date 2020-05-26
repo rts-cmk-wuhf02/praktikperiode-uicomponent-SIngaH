@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Surfing from "./components/Surfing"
 import Outdoor from "./components/Outdoor"
+import Delivery from "./components/Delivery"
 const contentful = require("contentful");
 
 class App extends Component{
@@ -16,6 +17,12 @@ class App extends Component{
            <div id="wrapper">
                <Surfing/>
                <Outdoor/>
+               <div id="four-little-boxes">
+                    <Delivery/>
+                    <Delivery/>
+                    <Delivery/>
+                    <Delivery/>
+               </div>
            </div>
         )
     }
