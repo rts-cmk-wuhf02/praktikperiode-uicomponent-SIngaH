@@ -1,51 +1,48 @@
-// import React from 'react';
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-import React, {Component} from "react"
+import React, {Component} from "react";
+import Surfing from "./components/Surfing"
+import Outdoor from "./components/Outdoor"
+const contentful = require("contentful");
 
 class App extends Component{
     constructor(){
         super()
         this.state = {
-            pokemon : [],
-            checked: false
+            articles : []
         }
-    }
-
-    componentWillMount(){
-        fetch('https://cdn.contentful.com/')  
-        .then(response => response.json())  
-        .then(test => console.log(test.name))
     }
 
     render(){
         return(
-           <h1>haha</h1>
+           <div id="wrapper">
+               <Surfing/>
+               <Outdoor/>
+           </div>
         )
     }
 }
 export default App
+
+/*
+for later 
+
+    componentDidMount(){
+        fetch("https://cdn.contentful.com/spaces/l7i7lm6yrnxh?access_token=d7VBCE2RDvIFSae64zF_EyRjjiNdms7T2JMExYTFEYk")
+        .then(response => response.json())
+        .then(result => console.log(result))
+    }
+
+*/
+/*
+Just in  case
+
+        // const client = contentful.createClient({
+        //     // This is the space ID. A space is like a project folder in Contentful terms
+        //     space: "l7i7lm6yrnxh",
+        //     // This is the access token for this space. Normally you get both ID and the token in the Contentful web app
+        //     accessToken: "d7VBCE2RDvIFSae64zF_EyRjjiNdms7T2JMExYTFEYk"
+        // });
+        // client.getEntries({content_type: "post"}).then((response) =>{
+        //     this.setState({articles: response.items});
+        //     console.log(response);
+        // })
+*/
