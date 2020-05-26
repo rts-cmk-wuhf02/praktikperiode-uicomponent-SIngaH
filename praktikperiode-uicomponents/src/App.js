@@ -3,6 +3,7 @@ import Surfing from "./components/Surfing"
 import Outdoor from "./components/Outdoor"
 import Delivery from "./components/Delivery"
 import Parcels from "./components/Parcels"
+import Quality from "./components/Quality"
 const contentful = require("contentful");
 
 class App extends Component{
@@ -21,7 +22,7 @@ class App extends Component{
                <div id="four-little-boxes">
                     <Delivery/>
                     <Parcels/>
-                    <Delivery/>
+                    <Quality/>
                     <Delivery/>
                </div>
            </div>
