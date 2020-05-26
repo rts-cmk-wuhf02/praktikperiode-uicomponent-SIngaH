@@ -2,10 +2,9 @@
     background-color:var(--first-blue);
     border-radius: 1rem;
 }
-
 #Delivery{
     padding: 1% 2%;
-    margin:0 1%;
+    margin:0 1% 0 0;
     display:grid;
     grid-template-columns: 100%;
     grid-template-rows: 27% 50%;
