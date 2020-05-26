@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Surfing from "./components/Surfing"
 import Outdoor from "./components/Outdoor"
 import Delivery from "./components/Delivery"
+import Parcels from "./components/Parcels"
 const contentful = require("contentful");
 
 class App extends Component{
@@ -19,7 +20,7 @@ class App extends Component{
                <Outdoor/>
                <div id="four-little-boxes">
                     <Delivery/>
-                    <Delivery/>
+                    <Parcels/>
                     <Delivery/>
                     <Delivery/>
                </div>
