@@ -1,0 +1,33 @@
+#Outdoor{
+    background-color: #fff;
+    padding:5%;
+    border-radius: 1rem;
+    display:grid;
+    grid-template-columns:repeat(2, 50%) ;
+    grid-template-rows: 10% 30% 30% 30%;
+}
+.first-img{
+    grid-row:1/span 4;
+    grid-column: 1;
+    height:100%;
+}
+.little-imgs{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+#Outdoor button{
+    place-self:center end;
+    background-color:var(--first-blue);
+    color:#fff;
+    border:none;
+    padding:2% 5%;
+    border-radius: 5rem;
+}
+#Outdoor h1{
+    font-size: 44px;
+    margin:0;
+}
+#Outdoor p{
+    font-size: 17px;
+}
