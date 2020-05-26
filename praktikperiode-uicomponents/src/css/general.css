@@ -16,3 +16,7 @@ body{
 p{
     color:#7B8591;
 }
+#four-little-boxes{
+    grid-row:2;
+    grid-column:1/span 3;
+}
