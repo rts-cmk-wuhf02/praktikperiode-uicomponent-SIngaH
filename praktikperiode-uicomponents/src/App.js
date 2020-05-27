@@ -12,6 +12,10 @@ import MustSee from "./components/MustSee"
 import Latest from "./components/Latest"
 import FoodLifestyleFashion from "./components/FoodLifestyleFashion"
 import Arcitecture from "./components/Arcitecture"
+import Travel from "./components/Travel"
+import Greenery from "./components/Greenery"
+import NewsDigest from "./components/NewsDigest"
+import Beaches from "./components/Beaches"
 const contentful = require("contentful");
 
 class App extends Component{
@@ -40,6 +44,10 @@ class App extends Component{
                 <Latest/>
                 <FoodLifestyleFashion/>
                 <Arcitecture/>
+                <Travel/>
+                <Greenery/>
+                <NewsDigest/>
+                <Beaches/>
            </div>
         )
     }
