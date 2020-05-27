@@ -10,6 +10,8 @@ import Shapes from "./components/Shapes"
 import InDepth from "./components/In-depth"
 import MustSee from "./components/MustSee"
 import Latest from "./components/Latest"
+import FoodLifestyleFashion from "./components/FoodLifestyleFashion"
+import Arcitecture from "./components/Arcitecture"
 const contentful = require("contentful");
 
 class App extends Component{
@@ -36,6 +38,8 @@ class App extends Component{
                 <InDepth/>
                 <MustSee/>
                 <Latest/>
+                <FoodLifestyleFashion/>
+                <Arcitecture/>
            </div>
         )
     }
