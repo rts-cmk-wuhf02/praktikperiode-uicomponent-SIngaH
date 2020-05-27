@@ -6,6 +6,9 @@ import Parcels from "./components/Parcels"
 import Quality from "./components/Quality"
 import Customer from "./components/Customer"
 import OffTheGrid from "./components/Off-the-grid"
+import Shapes from "./components/Shapes"
+import InDepth from "./components/In-depth"
+import MustSee from "./components/MustSee"
 const contentful = require("contentful");
 
 class App extends Component{
@@ -28,6 +31,9 @@ class App extends Component{
                     <Customer/>
                </div>
                 <OffTheGrid/>
+                <Shapes/>
+                <InDepth/>
+                <MustSee/>
            </div>
         )
     }

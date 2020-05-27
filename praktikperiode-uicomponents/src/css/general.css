@@ -22,3 +22,6 @@ p{
     display:flex;
     justify-content:space-evenly;
 }
+#MustSee{
+    grid-column:1/span 2;
+}
