@@ -16,7 +16,9 @@ import Travel from "./components/Travel"
 import Greenery from "./components/Greenery"
 import NewsDigest from "./components/NewsDigest"
 import Beaches from "./components/Beaches"
-const contentful = require("contentful");
+import TheNewYorkTimes from "./components/TheNewYorkTimes"
+import SecondNewYorkTimes from "./components/SecondNewYorkTimes"
+// const contentful = require("contentful");
 
 class App extends Component{
     constructor(){
@@ -48,6 +50,8 @@ class App extends Component{
                 <Greenery/>
                 <NewsDigest/>
                 <Beaches/>
+                <TheNewYorkTimes/>
+                <SecondNewYorkTimes/>
            </div>
         )
     }

@@ -40,3 +40,10 @@ p{
 #Beaches{
     grid-row:8;
 }
+#TheNewYorkTimes{
+    grid-row:7/span 2;
+}
+#SeconsNewYorkTimes{
+    grid-row:9/span 2;
+    grid-column:3;
+}
