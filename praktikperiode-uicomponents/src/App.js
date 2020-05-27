@@ -9,6 +9,7 @@ import OffTheGrid from "./components/Off-the-grid"
 import Shapes from "./components/Shapes"
 import InDepth from "./components/In-depth"
 import MustSee from "./components/MustSee"
+import Latest from "./components/Latest"
 const contentful = require("contentful");
 
 class App extends Component{
@@ -34,6 +35,7 @@ class App extends Component{
                 <Shapes/>
                 <InDepth/>
                 <MustSee/>
+                <Latest/>
            </div>
         )
     }

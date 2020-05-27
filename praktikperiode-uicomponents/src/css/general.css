@@ -25,3 +25,7 @@ p{
 #MustSee{
     grid-column:1/span 2;
 }
+#Latest{
+    grid-row:4/span 2;
+    grid-column:3;
+}
