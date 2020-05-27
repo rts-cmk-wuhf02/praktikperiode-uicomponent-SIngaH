@@ -1,0 +1,32 @@
+#InDepth{
+    background-color: #fff;
+    display:grid;
+    grid-template-rows: 10% 60% 30%;
+    position: relative;
+    border-radius: 1rem;
+}
+#InDepth h3{
+    grid-row:1;
+    z-index: 2;
+    position: absolute;
+    color:#fff;
+    padding:0 5%;
+}
+.InDepth-first-img{
+    grid-row:1;
+    width:100%;
+    z-index: 1;
+    height: 635%;
+}
+.InDepth-text, .InDepth-circle-img{
+    z-index: 2;
+    text-align:center;
+}
+.InDepth-text{
+    grid-row: 3;
+}
+.InDepth-circle-img{
+    grid-row:2;
+    place-self:end start;
+    padding:0 0 0 5%;
+}
