@@ -19,6 +19,8 @@ import Beaches from "./components/Beaches"
 import TheNewYorkTimes from "./components/TheNewYorkTimes"
 import SecondNewYorkTimes from "./components/SecondNewYorkTimes"
 import Virtual from "./components/Virtual"
+import Design from "./components/Design"
+import Education from "./components/Education"
 // const contentful = require("contentful");
 
 class App extends Component{
@@ -54,6 +56,10 @@ class App extends Component{
                 <TheNewYorkTimes/>
                 <SecondNewYorkTimes/>
                 <Virtual/>
+                <div id="design-education">
+                    <Design/>
+                    <Education/>
+                </div>
            </div>
         )
     }
