@@ -62,7 +62,6 @@ export default App
 
 /*
 for later 
-
     componentDidMount(){
         fetch("https://cdn.contentful.com/spaces/l7i7lm6yrnxh?access_token=d7VBCE2RDvIFSae64zF_EyRjjiNdms7T2JMExYTFEYk")
         .then(response => response.json())
