@@ -1,9 +1,8 @@
 import React, {Component} from "react"
 import Logo from "../imgs/News_logo.png"
-import Background from "../imgs/Rectangle 35.png"
-import "../css/second-new-york-times.css"
+import "../css/the-new-york-times.css"
 
-class SeconsNewYorkTimes extends Component{
+class TheNewYorkTimes extends Component{
     constructor(){
         super()
         this.state = {
@@ -13,9 +12,8 @@ class SeconsNewYorkTimes extends Component{
 
     render(){
         return(
-           <div id="SeconsNewYorkTimes">
-               <img src={Background} alt="mountains" className="nyt-ackground"/>
-               <div className="second-new-york-logo">
+           <div id="TheNewYorkTimes">
+               <div className="new-york-logo">
                     <img src={Logo} alt="The new york times logo"/>
                     <h2>THE NEW YORK TIMES</h2>
                </div>
@@ -25,4 +23,4 @@ class SeconsNewYorkTimes extends Component{
         )
     }
 }
-export default SeconsNewYorkTimes
+export default TheNewYorkTimes
