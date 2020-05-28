@@ -2,6 +2,9 @@
     background-color: #fff;
     border-radius: 1rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .news-headline{
     padding:4% 5% 5% 5%;
