@@ -1,11 +1,9 @@
 import React, {Component} from "react"
-// import LatestSub from "./Latest-sub-component"
 import Trees from "../imgs/Rectangle 29.png"
 import Lion from "../imgs/Rectangle 30.png"
 import Headphones from "../imgs/Rectangle 31.png"
 import Mountain from "../imgs/Rectangle 32.png"
 import Africa from "../imgs/Rectangle 33.png"
-
 import "../css/latest.css"
 
 class Latest extends Component{
