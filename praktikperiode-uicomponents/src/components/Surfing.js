@@ -1,8 +1,7 @@
 import React, {Component} from "react"
 import Img1 from "../imgs/Rectangle 2.png"
 import "../css/surfing.css"
-
-
+import { graphql } from 'gatsby'
 
 class Surfing extends Component{
     constructor(){
