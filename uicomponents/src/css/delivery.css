@@ -1,0 +1,22 @@
+#Delivery{
+    background-color:var(--first-blue);
+    border-radius: 1rem;
+}
+#Delivery{
+    padding: 1% 2%;
+    margin:0 1% 0 0;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 27% 50%;
+}
+#Delivery img{
+    place-self: center end;
+
+}
+.delivery-text{
+    color:#fff;
+    grid-row:2;
+}
+.delivery-text p{
+    color:#fff;
+} 

@@ -1,0 +1,21 @@
+#Customer{
+    background-color:var(--third-blue);
+    border-radius: 1rem;
+}
+#Customer{
+    padding: 1% 2%;
+    margin: 0 0 0 1%;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 27% 50%;
+}
+#Customer img{
+    place-self: center end;
+}
+.Customer-text{
+    color:#fff;
+    grid-row:2;
+}
+.Customer-text p{
+    color:#fff;
+} 

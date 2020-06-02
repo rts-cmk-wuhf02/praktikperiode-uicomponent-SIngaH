@@ -1,5 +1,5 @@
 import React from "react"
-// import "../css/surfing.css"
+import "../css/surfing.css"
 import Img from 'gatsby-image'
 
 function Surfing({ title, label, content, images }) {
