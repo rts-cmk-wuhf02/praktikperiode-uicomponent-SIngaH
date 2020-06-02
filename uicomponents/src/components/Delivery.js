@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 function Delivery ({ title, content, image }){
     return(
         <div id="Delivery">
-            {<Img fluid={image.fluid} alt="on time delivery"/>}
+            {<Img fluid={image.fluid} alt="on time delivery" className="deliveryImg"/>}
             <div className="delivery-text">
                 <h1>{title}</h1>
                 <p>{content.content}</p>

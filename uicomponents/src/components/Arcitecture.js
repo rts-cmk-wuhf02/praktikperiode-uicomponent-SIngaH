@@ -1,26 +1,16 @@
-import React, {Component} from "react"
-import Img from "../imgs/Rectangle 19.png"
+import React from "react"
 import "../css/arcitecture.css"
+import Img from 'gatsby-image'
 
-
-class Arcitecture extends Component{
-    constructor(){
-        super()
-        this.state = {
-            articles : []
-        }
-    }
-
-    render(){
-        return(
-           <div id="Arcitecture">
-                <img src={Img} alt="Arcitecture"/>
-                <div className="arcitecture-text">
-                    <h5>ARCHITECTURE</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam egestas </p>
-                </div>
-           </div>
-        )
-    }
+function Arcitecture({ title, content, image }){
+    return(
+        <div id="Arcitecture">
+            {<Img fluid={image.fluid} alt="Arcitecture"/>}
+            <div className="arcitecture-text">
+                <h5>{title}</h5>
+                <p>{content.content}</p>
+            </div>
+        </div>
+    )
 }
 export default Arcitecture

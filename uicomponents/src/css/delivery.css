@@ -7,11 +7,11 @@
     margin:0 1% 0 0;
     display:grid;
     grid-template-columns: 100%;
-    grid-template-rows: 27% 50%;
+    grid-template-rows: 50% 50%;
 }
-#Delivery img{
+.deliveryImg{
     place-self: center end;
-
+    width:35%;
 }
 .delivery-text{
     color:#fff;
