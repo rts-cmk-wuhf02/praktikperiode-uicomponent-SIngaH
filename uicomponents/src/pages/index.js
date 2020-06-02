@@ -16,16 +16,15 @@ import "../css/index.css"
 function RootIndex({ data }) {
   let travelData = data.allContentfulTravel.nodes[1];
   let secondTravelData = data.allContentfulTravel.nodes[0];
-  console.log(travelData)
   
   let firstLittleBox = data.allContentfulFourLittleBoxes.nodes[0];
   let secondLLittleBox = data.allContentfulFourLittleBoxes.nodes[1];
   let thirdLittleBox = data.allContentfulFourLittleBoxes.nodes[2];
   let fourthLittleBox = data.allContentfulFourLittleBoxes.nodes[3];
   
-  let collection10 = data.allContentfulCollection.nodes[0];
+  let collection123 = data.allContentfulCollection.nodes[0];
   let collection1 = data.allContentfulCollection.nodes[1];
-  let collection123 = data.allContentfulCollection.nodes[2];
+  let collection10 = data.allContentfulCollection.nodes[2];
   
   let MustSeeData = data.allContentfulMustSee.nodes[0];
   

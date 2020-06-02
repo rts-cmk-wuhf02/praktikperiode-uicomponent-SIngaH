@@ -4,7 +4,7 @@ import Img from 'gatsby-image'
 
 function SeconsNewYorkTimes({ title, content, images, button }){
     return(
-        <div id="TheNewYorkTimes">
+        <div id="SeconsNewYorkTimes">
             {<Img fluid={images[1].fluid} alt="mountains" className="nyt-background"/>}
             <div className="new-york-logo">
                 {<Img fluid={images[0].fluid} alt="The new york times logo"/>}
