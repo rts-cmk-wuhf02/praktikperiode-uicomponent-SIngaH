@@ -4,13 +4,14 @@
     display:grid;
 }
 .latest-news{
-    padding:4% 5% 5% 5%;
+    padding:4% 5% 2% 5%;
     margin:0;
     text-align: center;
     background-color:var(--latest-news);
     color:#fff;
     border-radius: 1rem 1rem 0 0;
     font-family:'Gotham Pro Bold'; 
+    font-size: 21px;
 }
 .latest-item{
     display:flex;
@@ -30,7 +31,8 @@ h5{
     padding-top: 3%;
 }
 .latest-item-text h5{
-    font-family:'Gotham Pro Bold'; 
+    font-family:'Gotham Pro'; 
+    font-size: 12px;
 }
 
 .more-news{
@@ -40,4 +42,5 @@ h5{
     color:#7B8591;
     font-family:'Gotham Pro Bold'; 
     text-align: center;
+    font-size: 21px;
 }

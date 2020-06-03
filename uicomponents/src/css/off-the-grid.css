@@ -17,6 +17,10 @@
 #OffTheGrid h2, #OffTheGrid h3{
     font-family:'Gotham Pro Bold'; 
 }
+#OffTheGrid h2{
+    font-size: 20px;
+    font-weight: 600;
+}
 .off-the-grid-first-img{
     grid-row:1/ span 2;
     width:100%;

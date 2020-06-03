@@ -11,6 +11,7 @@
 }
 #Delivery h1{
     font-family:'Gotham Pro Bold'; 
+    font-size: 22px;
 }
 .deliveryImg{
     place-self: center end;

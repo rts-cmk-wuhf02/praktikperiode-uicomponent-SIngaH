@@ -29,9 +29,10 @@
     border-radius: 5rem;
 }
 #Outdoor h1{
-    font-size: 44px;
+    font-size: 49px;
     margin:0;
     font-family:'Gotham Pro Bold'; 
+    line-height: 47px;
 }
 #Outdoor p{
     font-size: 17px;
