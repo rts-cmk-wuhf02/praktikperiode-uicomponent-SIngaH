@@ -2,7 +2,7 @@ import React from "react"
 import Img from 'gatsby-image'
 
 function Design({ title, image, color }){
-    const DesignStyle={backgroundColor: color, borderRadius: "1rem", padding:"5%", width:"35%", display:"grid", textAlign:"center", color:"#fff"}
+    const DesignStyle={backgroundColor: color, borderRadius: "1rem", padding:"5%", width:"35%", display:"grid", textAlign:"center", color:"#fff", fontFamily:'Gotham Pro Bold'}
     const ImgStyles={width:"47%", placeSelf:"center"}
     return(
         <div id="Design" style={DesignStyle}>

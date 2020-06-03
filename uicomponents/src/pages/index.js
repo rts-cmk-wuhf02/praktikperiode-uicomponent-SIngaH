@@ -12,6 +12,7 @@ import Design from "../components/Design"
 import NewYorkTimes from "../components/TheNewYorkTimes"
 import SecondNewYorkTimes from "../components/SecondNewYorkTimes"
 import "../css/index.css"
+import "../../style.css"
 
 function RootIndex({ data }) {
   let surfingData = data.allContentfulTravel.nodes[0];

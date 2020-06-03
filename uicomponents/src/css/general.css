@@ -8,6 +8,9 @@ body{
     grid-template-columns: 34% 33% 30%;
     grid-template-rows: repeat(10, 4%);
     gap:1%;
+    font-family:'Gotham Pro'; 
+    font-style: normal;
+    font-weight: normal;
 }
 h1{
     font-size: 23px;

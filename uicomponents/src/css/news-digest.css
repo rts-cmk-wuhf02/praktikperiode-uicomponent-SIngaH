@@ -13,6 +13,7 @@
     background-color:var(--news-digest);
     color:#fff;
     border-radius: 1rem 1rem 0 0;
+    font-family:'Gotham Pro Bold'; 
 }
 .news-item{    
     display:grid;

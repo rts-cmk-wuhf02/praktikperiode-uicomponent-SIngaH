@@ -10,6 +10,7 @@
     background-color:var(--latest-news);
     color:#fff;
     border-radius: 1rem 1rem 0 0;
+    font-family:'Gotham Pro Bold'; 
 }
 .latest-item{
     display:flex;
@@ -28,10 +29,15 @@ h5{
 .latest-item-text{
     padding-top: 3%;
 }
+.latest-item-text h5{
+    font-family:'Gotham Pro Bold'; 
+}
+
 .more-news{
     border-top:solid 1px #7B8591;
     margin:0;
     padding:2% 5%;
     color:#7B8591;
+    font-family:'Gotham Pro Bold'; 
     text-align: center;
 }

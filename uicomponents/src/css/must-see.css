@@ -20,8 +20,9 @@
     grid-column:1;
     font-size: 51px;
     place-self: center start;
-    padding: 0 50% 0 5%;
+    padding: 0 47% 0 5%;
     margin:0;
+    font-family:'Gotham Pro Bold'; 
 }
 #MustSee p{
     grid-row:3;

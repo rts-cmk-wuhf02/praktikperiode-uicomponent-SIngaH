@@ -9,6 +9,9 @@
     grid-template-columns: 100%;
     grid-template-rows: 50% 50%;
 }
+#Delivery h1{
+    font-family:'Gotham Pro Bold'; 
+}
 .deliveryImg{
     place-self: center end;
     width:35%;
