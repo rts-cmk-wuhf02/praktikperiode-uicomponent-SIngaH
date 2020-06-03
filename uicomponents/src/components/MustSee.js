@@ -3,6 +3,7 @@ import "../css/must-see.css"
 import Img from 'gatsby-image'
 
 function MustSee({ title, label, content, images }){
+    console.log(images)
     return(
         <div id="MustSee">
             {<Img fluid={images[0].fluid} alt="ocean and trees" className="mustsee-first-img"/>}
@@ -13,6 +14,7 @@ function MustSee({ title, label, content, images }){
             </div>
             <h1 className="on-img">{title}</h1>
             <p className="on-img">{content.content}</p>
+            {<Img fluid={images[3].fluid} alt="sliders" className="sliders"/>}
         </div>           
     )
 
