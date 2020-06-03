@@ -2,7 +2,7 @@
     background-color: #fff;
     display:grid;
     grid-template-rows: 56% 12% 33%;
-    grid-template-columns: 12% 89%;
+    grid-template-columns: 12% 88%;
     position: relative;
     border-radius: 1rem;
 }

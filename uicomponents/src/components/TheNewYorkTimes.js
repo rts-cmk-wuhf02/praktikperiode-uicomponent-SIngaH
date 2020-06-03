@@ -6,7 +6,7 @@ function TheNewYorkTimes({ title, content, images, button }){
     return(
         <div id="TheNewYorkTimes">
             <div className="new-york-logo">
-                {<Img fluid={images[0].fluid} alt="The new york times logo"/>}
+                {<Img fluid={images[0].fluid} alt="The new york times logo" className="tnyt-logo"/>}
                 <h2>{title}</h2>
             </div>
             <p>{content.content}</p>

@@ -14,8 +14,8 @@ import SecondNewYorkTimes from "../components/SecondNewYorkTimes"
 import "../css/index.css"
 
 function RootIndex({ data }) {
-  let travelData = data.allContentfulTravel.nodes[1];
-  let secondTravelData = data.allContentfulTravel.nodes[0];
+  let surfingData = data.allContentfulTravel.nodes[0];
+  let outdoorData = data.allContentfulTravel.nodes[1];
   
   let firstLittleBox = data.allContentfulFourLittleBoxes.nodes[0];
   let secondLLittleBox = data.allContentfulFourLittleBoxes.nodes[1];
@@ -57,49 +57,49 @@ function RootIndex({ data }) {
 
   return (
     <div id="wrapper">
-      <Surfing { ...secondTravelData } />
-      <Outdoor { ...travelData }/>
+      <Surfing { ...surfingData } />
+      <Outdoor { ...outdoorData }/>
       <div id="four-little-boxes">
         <Delivery {...firstLittleBox}/>
         <Delivery {...secondLLittleBox}/>
         <Delivery {...thirdLittleBox}/>
         <Delivery {...fourthLittleBox}/>
       </div>
-        <OffTheGrid { ...collection10}/>
-        <OffTheGrid { ...collection1}/>
-        <OffTheGrid { ...collection123}/>
-        <MustSee { ...MustSeeData}/>
-        <div id="Latest">
-          <h2 className="latest-news">LATEST NEWS</h2>
-          <Latest { ...latestNews}/>
-          <Latest { ...latestNews2}/>
-          <Latest { ...latestNews3}/>
-          <Latest { ...latestNews4}/>
-          <Latest { ...latestNews5}/>
-          <h2 className="more-news">MORE NEWS</h2>
-        </div> 
-        <div id="FoodLifestyleFashion">
-          <Latest { ...Lifestyle}/>
-          <Latest { ...Fashion}/>
-        </div>
-        <Arcitecture { ...arcitecture}/>
-        <Arcitecture { ...travelAndLeasure}/>
-        <Arcitecture { ...greenery}/>
-        <Arcitecture { ...beaches}/>
-        <div id="NewsDigest">
-            <h2 className="news-headline">NEWS DIGEST</h2>
-            <NewsDigest { ...Technology}/>
-            <NewsDigest { ...Nature}/>
-            <NewsDigest { ...designData}/>
-            <NewsDigest { ...Development}/>
-        </div>    
-        <Virtual { ...virtualReality}/>
-        <div id="design-education">
-          <Design { ...design }/>
-          <Design { ...education }/>
-        </div>
-        <NewYorkTimes { ...TNYT}/>
-        <SecondNewYorkTimes { ...TSTNYT}/>
+      <OffTheGrid { ...collection10}/>
+      <OffTheGrid { ...collection1}/>
+      <OffTheGrid { ...collection123}/>
+      <MustSee { ...MustSeeData}/>
+      <div id="Latest">
+        <h2 className="latest-news">LATEST NEWS</h2>
+        <Latest { ...latestNews}/>
+        <Latest { ...latestNews2}/>
+        <Latest { ...latestNews3}/>
+        <Latest { ...latestNews4}/>
+        <Latest { ...latestNews5}/>
+        <h2 className="more-news">MORE NEWS</h2>
+      </div> 
+      <div id="FoodLifestyleFashion">
+        <Latest { ...Lifestyle}/>
+        <Latest { ...Fashion}/>
+      </div>
+      <Arcitecture { ...arcitecture}/>
+      <Arcitecture { ...travelAndLeasure}/>
+      <Arcitecture { ...greenery}/>
+      <Arcitecture { ...beaches}/>
+      <div id="NewsDigest">
+        <h2 className="news-headline">NEWS DIGEST</h2>
+        <NewsDigest { ...Technology}/>
+        <NewsDigest { ...Nature}/>
+        <NewsDigest { ...designData}/>
+        <NewsDigest { ...Development}/>
+      </div>    
+      <Virtual { ...virtualReality}/>
+      <div id="design-education">
+        <Design { ...design }/>
+        <Design { ...education }/>
+      </div>
+      <NewYorkTimes { ...TNYT}/>
+      <SecondNewYorkTimes { ...TSTNYT}/>
     </div>
   )
 }
@@ -198,6 +198,7 @@ query travelQuery {
 
   allContentfulNewsDigest {
     nodes {
+      border
       content {
         content
       }
