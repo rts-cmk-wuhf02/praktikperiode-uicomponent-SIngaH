@@ -7,7 +7,7 @@ function Design({ title, image, color }){
     return(
         <div id="Design" style={DesignStyle}>
             {<Img fluid={image.fluid} alt="design" style={ImgStyles}/>}
-            <h2>{title}</h2>
+            <h2 style={{fontSize:"17px"}}>{title}</h2>
         </div>
     )    
 }
