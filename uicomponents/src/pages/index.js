@@ -28,29 +28,29 @@ function RootIndex({ data }) {
   
   let MustSeeData = data.allContentfulMustSee.nodes[0];
   
-  let latestNews = data.allContentfulLatestNews.nodes[6];
-  let latestNews2 = data.allContentfulLatestNews.nodes[5];
-  let latestNews3 = data.allContentfulLatestNews.nodes[4];
+  let latestNews = data.allContentfulLatestNews.nodes[0];
+  let latestNews2 = data.allContentfulLatestNews.nodes[1];
+  let latestNews3 = data.allContentfulLatestNews.nodes[2];
   let latestNews4 = data.allContentfulLatestNews.nodes[3];
-  let latestNews5 = data.allContentfulLatestNews.nodes[2];
+  let latestNews5 = data.allContentfulLatestNews.nodes[4];
   
-  let Lifestyle = data.allContentfulLatestNews.nodes[1];
-  let Fashion = data.allContentfulLatestNews.nodes[0];
+  let Lifestyle = data.allContentfulLatestNews.nodes[5];
+  let Fashion = data.allContentfulLatestNews.nodes[6];
   
   let arcitecture = data.allContentfulArcitecture.nodes[3];
   let travelAndLeasure = data.allContentfulArcitecture.nodes[2];
   let greenery = data.allContentfulArcitecture.nodes[1];
   let beaches = data.allContentfulArcitecture.nodes[0];
   
-  let Technology = data.allContentfulNewsDigest.nodes[3];
-  let Nature = data.allContentfulNewsDigest.nodes[2];
-  let designData = data.allContentfulNewsDigest.nodes[1];
-  let Development = data.allContentfulNewsDigest.nodes[0];
+  let Technology = data.allContentfulNewsDigest.nodes[2];
+  let Nature = data.allContentfulNewsDigest.nodes[1];
+  let designData = data.allContentfulNewsDigest.nodes[0];
+  let Development = data.allContentfulNewsDigest.nodes[3];
   
   let virtualReality = data.allContentfulVirtualReality.nodes[0];
 
-  let design = data.allContentfulDesign.nodes[1];
-  let education = data.allContentfulDesign.nodes[0];
+  let design = data.allContentfulDesign.nodes[0];
+  let education = data.allContentfulDesign.nodes[1];
 
   let TNYT = data.allContentfulTnyt.nodes[1];
   let TSTNYT = data.allContentfulTnyt.nodes[0];
@@ -125,6 +125,7 @@ query travelQuery {
 
     allContentfulFourLittleBoxes {
       nodes {
+        color
         image {
           fluid {
             ...GatsbyContentfulFluid
@@ -167,6 +168,7 @@ query travelQuery {
 
   allContentfulLatestNews {
     nodes {
+      color
         content {
         content
         }
@@ -181,6 +183,7 @@ query travelQuery {
 
   allContentfulArcitecture {
     nodes {
+      color
       image {
         fluid {
           ...GatsbyContentfulFluid
@@ -218,6 +221,7 @@ query travelQuery {
 
   allContentfulDesign {
     nodes {
+      color
       image {
         fluid {
           ...GatsbyContentfulFluid

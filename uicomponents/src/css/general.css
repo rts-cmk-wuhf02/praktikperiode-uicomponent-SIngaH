@@ -79,3 +79,13 @@ p{
     grid-row:9;
     grid-column:1;
 }
+
+
+#FoodLifestyleFashion{
+    background-color: #fff;
+    border-radius: 1rem;
+    display:grid;
+    grid-template-columns:repeat(2, 50%);
+    gap:2%;
+    height: 95%;
+}

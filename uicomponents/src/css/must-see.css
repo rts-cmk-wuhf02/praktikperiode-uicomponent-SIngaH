@@ -9,6 +9,7 @@
     width:100%;
     z-index:1;
     grid-column:1/span 2;
+    grid-row: 1/span 3;
 }
 .on-img{
     z-index: 2;
@@ -43,10 +44,12 @@
 .mustsee-logo{
     height: 100%;
     padding: 2%;
+    width: 44%;
 }
 .mustsee-heart{
     grid-row:1;
     grid-column:2;
     place-self: start end;
     padding: 3%;
+    margin:4%;
 }

@@ -10,11 +10,15 @@
     grid-row:1/span 4;
     grid-column: 1;
     height:100%;
+    margin-right:5%;
+    border-radius: 1rem;
 }
 .little-imgs{
-    display:flex;
-    flex-direction: row;
-    justify-content:space-between;
+    display:grid;
+    grid-template-columns:repeat(3, 30%);
+    gap:3%;
+    height:84%;
+    margin-top:5%;
 }
 #Outdoor button{
     place-self:center end;

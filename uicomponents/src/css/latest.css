@@ -2,7 +2,6 @@
     background-color: #fff;
     border-radius: 1rem;
     display:grid;
-    grid-template-rows: 7% repeat(5, 17.3%) 7%;
 }
 .latest-news{
     padding:4% 5% 5% 5%;
@@ -18,7 +17,10 @@
     padding:5%;
 }
 .latest-img{
-    padding-right:5%;
+    margin-right:10%;
+    width: 79%;
+    height: 101%;
+    border-radius: 1rem;
 }
 h5{
     margin:0;
