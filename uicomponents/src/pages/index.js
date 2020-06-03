@@ -210,7 +210,7 @@ query travelQuery {
 
   allContentfulVirtualReality {
     nodes {
-      image {
+      images {
         fluid {
           ...GatsbyContentfulFluid
         }

@@ -4,7 +4,7 @@
     grid-template-columns: 100%;
     position: relative;
 }
-.virtual-background, #Virtual h2, #Virtual h5{
+.virtual-background, #Virtual h2, #Virtual h5, .virtual-little-red{
     grid-row: 1;
     grid-column: 1;
 }
@@ -12,4 +12,11 @@
     border-radius:1rem;
     width:100%;
     z-index: 1;
+}
+.virtual-little-red{
+    width: 4%;
+    height: 10%;
+    place-self: start end;
+    z-index: 2;
+    margin-right: 3%;
 }
