@@ -38,8 +38,12 @@ Du skal downloade XD filen herfra: https://bit.ly/2Xkqsbm
 ## Aflevering
 Aflevering torsdag d. 4 Juni.<br>
 Du har afleveret når din applikation er hostet på github pages og linket hertil er sat ind herunder.<br><br>
-**Projekt url:** https://github.com/SIngaH/uicomponents
+**Projekt url:** 
 
-det ser bedst ud i firefox developer edition
+Jeg har prøvet alt jeg kan tænke på og har været i gang siden klokken 8:50, men jeg kunne stadigvæk ikke få det til at komme op på netlify.
+Så jeg lavede en mappe med screenshots inde i mit repository, den mappe hedder uicomponents-screenshots.
 
-hvis jeg kan ikke sætte siden på netlify så har jeg billeder af siden i mappen som hedder uicomponents-screenshots
+Mit repository hedder https://github.com/SIngaH/uicomponents
+
+Mine screenshots viser siden i firefox
+Tak for i dag og God weekend :)
