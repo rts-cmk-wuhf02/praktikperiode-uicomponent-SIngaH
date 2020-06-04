@@ -1,7 +1,7 @@
 #TheNewYorkTimes{
     background-color: #fff;
     border-radius: 1rem;
-    padding:15%;
+    padding:0 15% 15% 15%;
 }
 #TheNewYorkTimes button{
     color:var(--fourth-blue);
@@ -18,7 +18,7 @@
 }
 .new-york-logo h2{
     font-size: 15px;
-    padding-left:5%;
+    padding:17% 0 0 5%;
 }
 .tnyt-logo{
     width: 19%;
