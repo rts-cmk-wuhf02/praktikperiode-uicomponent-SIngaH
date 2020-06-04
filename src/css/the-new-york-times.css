@@ -17,11 +17,15 @@
     flex-direction: row;
 }
 .new-york-logo h2{
-    font-size: 17px;
+    font-size: 15px;
     padding-left:5%;
 }
 .tnyt-logo{
-    width:17%;
+    width: 19%;
+    height: 19%;
+}
+.tnyt-logo picture img{
+    position: static !important;
 }
 #TheNewYorkTimes p{
     padding: 13% 0;
