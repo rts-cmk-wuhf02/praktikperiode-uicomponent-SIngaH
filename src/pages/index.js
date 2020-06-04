@@ -241,10 +241,7 @@ query travelQuery {
       }
       images {
         fluid {
-          base64
-          tracedSVG
-          srcWebp
-          srcSetWebp
+          ...GatsbyContentfulFluid
         }
       }
       title
