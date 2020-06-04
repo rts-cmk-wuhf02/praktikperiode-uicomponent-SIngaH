@@ -11,7 +11,8 @@
     color:#fff;
     border-radius: 1rem 1rem 0 0;
     font-family:'Gotham Pro Bold'; 
-    font-size: 21px;
+    font-size: 17px;
+    font-weight: lighter;
 }
 .latest-item{
     display:flex;
@@ -19,8 +20,8 @@
     padding: 5% 5% 8% 5%;
 }
 .latest-img{
-    margin-right:10%;
-    width: 79%;
+    margin-right:6%;
+    width: 96%;
     height: 101%;
     border-radius: 1rem;
 }
@@ -29,6 +30,11 @@ h5{
 }
 .latest-item-text{
     padding-top: 3%;
+}
+.latest-item-text p{
+    font-size: 13px;
+    margin: 5% 0 0 0;
+    line-height:1.5;
 }
 .latest-item-text h5{
     font-family:'Gotham Pro'; 
@@ -40,7 +46,8 @@ h5{
     margin:0;
     padding:2% 5%;
     color:#7B8591;
-    font-family:'Gotham Pro Bold'; 
     text-align: center;
-    font-size: 21px;
+    font-family:'Gotham Pro Bold'; 
+    font-size: 17px;
+    font-weight: lighter;
 }
