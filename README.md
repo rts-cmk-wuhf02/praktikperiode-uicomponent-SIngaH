@@ -40,3 +40,7 @@ Aflevering torsdag d. 4 Juni.<br>
 Du har afleveret når din applikation er hostet på github pages og linket hertil er sat ind herunder.<br><br>
 **Projekt url:** https://github.com/rts-cmk-wuhf02/praktikperiode-uicomponent-SIngaH
 
+branch som hedder Gatsby-uicomponents - jeg var bange for at ødelægge alt med at lave en pull request
+det ser bedst ud i firefox developer edition
+
+hvis jeg kan ikke sætte siden på netlify så har jeg billeder af siden i mappen som hedder uicomponents-screenshots
