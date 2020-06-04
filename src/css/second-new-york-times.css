@@ -29,11 +29,12 @@
     width:100%;
 }
 .snyt-logo{
-    width:16%;
+    width: 13%;
+    height: 13%;
 }
 .second-new-york-logo h2{
     font-size: 17px;
-    padding: 5%;
+    padding: 3% 5%;
     z-index: 2;
     margin: 0;
 }
